@@ -6,7 +6,7 @@
       <class name="com.test.AddAsset">
         <methods>
           <include name="MediaAssetGroups"/>
-          <include name="NewAddAsset"/>
+          <include name="AssetLogout"/>
           <include name="AssetLogin"/>
           <include name="EditAsset"/>
           <include name="FirstAsset"/>

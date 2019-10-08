@@ -29,20 +29,58 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing=0 cellpadding=0 class="param">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">0</td><td class="numi">115.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">9</td><td class="numi">0</td><td class="numi">227.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <a id="summary"></a>
 <table cellspacing=0 cellpadding=0 class="passed">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">com.test.AddAsset<td><a href="#m1"><b>AssetLogin</b>  </a></td><td class="numi">1</td><td>1535440258290</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr>
-<tr class="skippedodd"><td rowspan="1">com.test.AddAsset<td><a href="#m2"><b>AssetLogout</b>  </a></td><td class="numi">1</td><td>1535440373921</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Default test &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="4">com.test.AddAsset<td><a href="#m3"><b>FirstAsset</b>  </a></td><td class="numi">1</td><td>1535440373911</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m4"><b>NewAddAsset</b>  </a></td><td class="numi">1</td><td>1535440373914</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m5"><b>EditAsset</b>  </a></td><td class="numi">1</td><td>1535440373917</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m6"><b>MediaAssetGroups</b>  </a></td><td class="numi">1</td><td>1535440373919</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.test.EntityManagement<td><a href="#m1"><b>EntityLogin</b>  </a></td><td class="numi">1</td><td>1553599065261</td><td class="numi">0</td></tr>
+<tr class="failedeven"><td rowspan="1">com.test.AddAsset<td><a href="#m2"><b>AssetLogin</b>  </a></td><td class="numi">1</td><td>1553599201467</td><td class="numi">0</td></tr>
+<tr class="failedodd"><td rowspan="1">com.test.RiskDetermination<td><a href="#m3"><b>RiskLogin</b>  </a></td><td class="numi">1</td><td>1553599226004</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="1">com.test.EntityManagement<td><a href="#m4"><b>EntityLogout</b>  </a></td><td class="numi">1</td><td>1553599201457</td><td class="numi">0</td></tr>
+<tr class="skippedeven"><td rowspan="1">com.test.RiskDetermination<td><a href="#m5"><b>RiskLogout</b>  </a></td><td class="numi">1</td><td>1553599293084</td><td class="numi">0</td></tr>
+<tr class="skippedodd"><td rowspan="1">com.test.AddAsset<td><a href="#m6"><b>AssetLogout</b>  </a></td><td class="numi">1</td><td>1553599226002</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="3">com.test.EntityManagement<td><a href="#m7"><b>EntityList</b>  </a></td><td class="numi">1</td><td>1553599201446</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m8"><b>EntityTags</b>  </a></td><td class="numi">1</td><td>1553599201450</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m9"><b>SelectEntityFromHeader</b>  </a></td><td class="numi">1</td><td>1553599201454</td><td class="numi">2</td></tr>
+<tr class="skippedeven"><td rowspan="4">com.test.AddAsset<td><a href="#m10"><b>FirstAsset</b>  </a></td><td class="numi">1</td><td>1553599225984</td><td class="numi">2</td></tr><tr class="skippedeven"><td><a href="#m11"><b>NewAddAsset</b>  </a></td><td class="numi">1</td><td>1553599225988</td><td class="numi">3</td></tr><tr class="skippedeven"><td><a href="#m12"><b>EditAsset</b>  </a></td><td class="numi">1</td><td>1553599225993</td><td class="numi">4</td></tr><tr class="skippedeven"><td><a href="#m13"><b>MediaAssetGroups</b>  </a></td><td class="numi">1</td><td>1553599225999</td><td class="numi">2</td></tr>
+<tr class="skippedodd"><td rowspan="2">com.test.RiskDetermination<td><a href="#m14"><b>RQLBackUp</b>  </a></td><td class="numi">1</td><td>1553599293078</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m15"><b>RQLPager</b>  </a></td><td class="numi">1</td><td>1553599293081</td><td class="numi">1</td></tr>
 </table>
-<h1>Default test</h1>
-<a id="m1"></a><h2>com.test.AddAsset:AssetLogin</h2>
+<h1>Test</h1>
+<a id="m1"></a><h2>com.test.EntityManagement:EntityLogin</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Broser Launched successfully | <br><br/>
+<h3>Failure</h3>
+<p>Unable to locate element: //form/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SYB-LP-TEST-010&apos;, ip: &apos;192.168.1.24&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\MATHIV~1\AppData\Local\Temp\rust_mozprofile.n9Y22Y8dooEB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=6.1, moz:processID=7392.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: b358969d-0eeb-48f8-8b41-3a4aa57c2809
+*** Element info: {Using=xpath, value=//form/input}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+<br/>at com.test.WrapperClass.assertTextXpath(WrapperClass.java:1205)
+<br/>at com.test.EntityManagement.EntityLogin(EntityManagement.java:30)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.test.AddAsset:AssetLogin</h2>
 <div style="padding-left:3em">
 <h3>Test Messages</h3>
 Broser Launched successfully | <br><br/>
@@ -51,9 +89,9 @@ Broser Launched successfully | <br><br/>
 Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;SYB-LP-TEST-010&apos;, ip: &apos;192.168.1.24&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\MATHIV~1\AppData\Local\Temp\rust_mozprofile.P9l9BxjFXRfM, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=6.1, moz:processID=7380.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 555e58c6-ee58-4569-8cf4-6ef4fe3b2d29
-*** Element info: {Using=xpath, value=//form/input}</p>
+Capabilities [{moz:profile=C:\Users\MATHIV~1\AppData\Local\Temp\rust_mozprofile.rLUjDooeNeFo, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=6.1, moz:processID=4476.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 90e8a7a6-0c76-49ba-8a52-2efadd3ff81c
+*** Element info: {Using=xpath, value=html/body/div[1]/div[1]/form/div[2]/div/section[1]/input[1]}</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -73,14 +111,59 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m2"></a><h2>com.test.AddAsset:AssetLogout</h2>
+<a id="m3"></a><h2>com.test.RiskDetermination:RiskLogin</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Broser Launched successfully | <br><br/>
+<h3>Failure</h3>
+<p>Failed to decode response from marionette
+Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SYB-LP-TEST-010&apos;, ip: &apos;192.168.1.24&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\MATHIV~1\AppData\Local\Temp\rust_mozprofile.BWENZVgCQf6Z, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=53.0, platformVersion=6.1, moz:processID=10732.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: b88e7fcc-d520-4458-a5b0-72790341d742
+*** Element info: {Using=xpath, value=//form/input}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:414)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:513)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+<br/>at com.test.WrapperClass.assertTextXpath(WrapperClass.java:1205)
+<br/>at com.test.RiskDetermination.RiskLogin(RiskDetermination.java:34)
+<br/>25 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m3"></a><h2>com.test.AddAsset:FirstAsset</h2>
+<a id="m4"></a><h2>com.test.EntityManagement:EntityLogout</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m4"></a><h2>com.test.AddAsset:NewAddAsset</h2>
+<a id="m5"></a><h2>com.test.RiskDetermination:RiskLogout</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m5"></a><h2>com.test.AddAsset:EditAsset</h2>
+<a id="m6"></a><h2>com.test.AddAsset:AssetLogout</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<a id="m6"></a><h2>com.test.AddAsset:MediaAssetGroups</h2>
+<a id="m7"></a><h2>com.test.AddAsset:EditAsset</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.test.AddAsset:FirstAsset</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>com.test.RiskDetermination:RQLBackUp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.test.AddAsset:MediaAssetGroups</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>com.test.EntityManagement:SelectEntityFromHeader</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>com.test.AddAsset:NewAddAsset</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>com.test.RiskDetermination:RQLPager</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>com.test.EntityManagement:EntityList</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>com.test.EntityManagement:EntityTags</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

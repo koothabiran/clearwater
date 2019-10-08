@@ -3,22 +3,25 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)" preserve-order="true">
     <classes>
-      <class name="com.test.EntityManagement">
-        <methods>
-          <include name="EntityLogout"/>
-          <include name="EntityLogin"/>
-        </methods>
-      </class> <!-- com.test.EntityManagement -->
       <class name="com.test.AddAsset">
         <methods>
-          <include name="AssetLogout"/>
+          <include name="MediaAssetGroups"/>
+          <include name="NewAddAsset"/>
           <include name="AssetLogin"/>
+          <include name="EditAsset"/>
           <include name="FirstAsset"/>
         </methods>
       </class> <!-- com.test.AddAsset -->
+      <class name="com.test.EntityManagement">
+        <methods>
+          <include name="EntityList"/>
+          <include name="SelectEntityFromHeader"/>
+          <include name="EntityLogin"/>
+          <include name="EntityTags"/>
+        </methods>
+      </class> <!-- com.test.EntityManagement -->
       <class name="com.test.RiskDetermination">
         <methods>
-          <include name="RiskLogout"/>
           <include name="RQLPager"/>
           <include name="RiskLogin"/>
           <include name="RQLBackUp"/>

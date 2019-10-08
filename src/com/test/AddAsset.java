@@ -29,23 +29,23 @@ public class AddAsset extends WrapperClass{
 		Thread.sleep(5000);
 	    
 		//Enter EmailID in Textbox
-		assertTextXpath("//form/input");
-		sendvaluebyxpath("//form/input", emailId);
+		assertTextXpath("html/body/div[1]/div[1]/form/div[2]/div/section[1]/input[1]");
+		sendvaluebyxpath("html/body/div[1]/div[1]/form/div[2]/div/section[1]/input[1]","sathyanarayanan.var+57@sybrant.com");
 		Reporter.log("Enter EmailID successfully | ");
 		Thread.sleep(5000);
 		Thread.sleep(5000);
 		
 		//Enter Password in Textbox
 		assertTextXpath("//input[2]");
-		sendvaluebyxpath("//input[2]", password);
+		sendvaluebyxpath("//input[2]","Micro5478*");
 		Reporter.log("Enter Password successfully | ");
 		Thread.sleep(5000);
 		Thread.sleep(5000);
 
 		//Click on SignIN button
 		try {
-		assertTextXpath("//form/a");
-		clickByXpath("//form/a");  
+		assertTextXpath("html/body/div[1]/div[1]/form/div[2]/div/section[1]/div/a[2]");
+		clickByXpath("html/body/div[1]/div[1]/form/div[2]/div/section[1]/div/a[2]");  
 		Reporter.log("Click on SignIN button successfully | ");
 		}catch(Exception e)
 		{

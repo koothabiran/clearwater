@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)" preserve-order="true">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
     <classes>
       <class name="com.test.AddAsset">
         <methods>
@@ -12,6 +12,21 @@
           <include name="FirstAsset"/>
         </methods>
       </class> <!-- com.test.AddAsset -->
+      <class name="com.test.EntityManagement">
+        <methods>
+          <include name="EntityList"/>
+          <include name="SelectEntityFromHeader"/>
+          <include name="EntityLogin"/>
+          <include name="EntityTags"/>
+        </methods>
+      </class> <!-- com.test.EntityManagement -->
+      <class name="com.test.RiskDetermination">
+        <methods>
+          <include name="RQLPager"/>
+          <include name="RiskLogin"/>
+          <include name="RQLBackUp"/>
+        </methods>
+      </class> <!-- com.test.RiskDetermination -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
